@@ -10,7 +10,7 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-          matches: ['[vid="v_icon"]'],
+          matches: ['ViewGroup[vid="v_constraint"] > ImageView[vid="v_icon"]'],
         },
       ],
     },
