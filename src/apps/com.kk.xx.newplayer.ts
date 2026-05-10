@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '关闭底部广告条2',
+      name: '关闭底部广告条1',
       enable: false,
       rules: [
         {
@@ -18,18 +18,18 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '关闭底部广告条1',
+      name: '关闭底部广告条2',
       enable: false,
       rules: [
         {
           matches: [
-            '@WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
+            '@View < FrameLayout <4 FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < [vid="laout_ad"]',
           ],
         },
       ],
     },
     {
-      key: 3,
+      key: 4,
       name: '关广告不感兴趣',
       enable: false,
       rules: [
