@@ -74,5 +74,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 7,
+      name: '看广告听会员歌曲',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@ViewGroup < ViewGroup <3 ViewGroup < ViewGroup < FrameLayout < [vid="b3j"]',
+          ],
+        },
+      ],
+    },
   ],
 });
