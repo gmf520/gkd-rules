@@ -28,5 +28,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: '广告反馈原因',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@TextView < LinearLayout < GridView <2 LinearLayout < FrameLayout < [parent=null]',
+          ],
+        },
+      ],
+    },
   ],
 });
