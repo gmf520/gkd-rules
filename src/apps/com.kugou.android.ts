@@ -86,5 +86,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 8,
+      name: '你的会员已过期',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@Button < View <2 View < View < WebView < WebView < [vid="a5a"]',
+          ],
+        },
+      ],
+    },
   ],
 });
