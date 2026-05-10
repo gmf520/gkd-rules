@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '有声会员开学季特惠',
+      name: '关闭内测版本',
       enable: false,
       rules: [
         {
