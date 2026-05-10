@@ -44,5 +44,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 5,
+      name: '跳过开屏广告4',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@View <3 FrameLayout <2 FrameLayout < [vid="ad_container"]',
+          ],
+        },
+      ],
+    },
   ],
 });
