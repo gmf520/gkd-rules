@@ -16,5 +16,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '关广告不感兴趣',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@TextView < LinearLayout <2 ListView < LinearLayout < ScrollView < [id="android:id/content"]',
+          ],
+        },
+      ],
+    },
   ],
 });
