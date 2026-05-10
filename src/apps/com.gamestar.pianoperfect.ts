@@ -1,8 +1,8 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.qiyi.video',
-  name: '爱奇艺',
+  id: 'com.gamestar.pianoperfect',
+  name: '随身乐队',
   groups: [
     {
       key: 1,
@@ -11,7 +11,7 @@ export default defineGkdApp({
       rules: [
         {
           matches: [
-            '@TextView <2 LinearLayout <2 FrameLayout < RelativeLayout < FrameLayout < FrameLayout < [id="android:id/content"]',
+            '@TextView < FrameLayout <2 FrameLayout <2 FrameLayout <2 FrameLayout < FrameLayout < FrameLayout < [vid="splash_container"]',
           ],
         },
       ],
