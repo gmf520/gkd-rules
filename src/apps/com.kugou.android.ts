@@ -40,12 +40,36 @@ export default defineGkdApp({
     },
     {
       key: 4,
+      name: '开通会员3',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@ViewGroup < ViewGroup <2 ViewGroup < ViewGroup <2 FrameLayout < [vid="b3j"]',
+          ],
+        },
+      ],
+    },
+    {
+      key: 5,
       name: '开屏广告1',
       enable: false,
       rules: [
         {
           matches: [
             '@View < FrameLayout <3 FrameLayout < FrameLayout < [id="android:id/content"]',
+          ],
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: '开屏广告2',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@View < FrameLayout <2 FrameLayout < FrameLayout < [id="android:id/content"]',
           ],
         },
       ],
