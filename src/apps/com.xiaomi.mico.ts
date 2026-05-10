@@ -16,5 +16,15 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '音乐会员条',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="rv_content"] > ViewGroup > [vid="btn_close"]'],
+        },
+      ],
+    },
   ],
 });

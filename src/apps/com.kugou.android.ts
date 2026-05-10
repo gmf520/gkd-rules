@@ -18,12 +18,34 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '开通会员',
+      name: '开通会员1',
       enable: false,
       rules: [
         {
           matches: [
             '@Button < View <2 View <2 View < WebView < WebView < [vid="a5a"]',
+          ],
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: '开通会员2',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="vh0"]'],
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: '开屏广告1',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@View < FrameLayout <3 FrameLayout < FrameLayout < [id="android:id/content"]',
           ],
         },
       ],
