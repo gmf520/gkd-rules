@@ -14,5 +14,15 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '关闭上传条',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="cloud_guide_container"] > [vid="close_guide"]'],
+        },
+      ],
+    },
   ],
 });
