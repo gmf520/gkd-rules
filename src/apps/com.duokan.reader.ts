@@ -34,5 +34,15 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 4,
+      name: '关闭新版本',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="tv_cancel_update"]'],
+        },
+      ],
+    },
   ],
 });
