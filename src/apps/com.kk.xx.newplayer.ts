@@ -29,7 +29,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: '关广告不感兴趣',
       enable: false,
       rules: [
