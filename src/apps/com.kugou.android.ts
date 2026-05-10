@@ -16,5 +16,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '开通会员',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@Button < View <2 View <2 View < WebView < WebView < [vid="a5a"]',
+          ],
+        },
+      ],
+    },
   ],
 });
