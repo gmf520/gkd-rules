@@ -24,5 +24,15 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: '开屏广告1',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="view_skip_button"]'],
+        },
+      ],
+    },
   ],
 });
