@@ -16,5 +16,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '列表内广告1',
+      enable: false,
+      rules: [
+        {
+          matches: [
+            '@ImageView <3 RelativeLayout < FrameLayout <6 [vid="video_area"]',
+          ],
+        },
+      ],
+    },
   ],
 });
