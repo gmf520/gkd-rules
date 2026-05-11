@@ -14,5 +14,15 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '添加到主屏幕',
+      enable: false,
+      rules: [
+        {
+          matches: ['[vid="popup_bottom_sheet_close"]'],
+        },
+      ],
+    },
   ],
 });
