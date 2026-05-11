@@ -20,7 +20,9 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-          matches: ['[vid="reading__app_ad_view__close"]'],
+          matches: [
+            '@TextView[vid="reading__app_ad_view__close"][text="广告"]',
+          ],
         },
       ],
     },
