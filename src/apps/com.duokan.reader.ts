@@ -10,7 +10,9 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-          matches: ['[vid="reading__app_ad_view__close"]'],
+          matches: [
+            '@ImageView < [vid="reading__app_ad_view__close"] < [vid="reading_reading_bottom_ad_view"]',
+          ],
         },
       ],
     },
