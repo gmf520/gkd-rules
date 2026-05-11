@@ -1,16 +1,16 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.bilibili.studio',
-  name: '必剪',
+  id: 'tv.danmaku.bili',
+  name: '哔哩哔哩',
   groups: [
     {
       key: 1,
-      name: '暂不升级',
+      name: '开屏广告',
 
       rules: [
         {
-          matches: ['[vid="update_btn_cancel"]'],
+          matches: ['[vid="logo_layout"] > [vid="count_down"]'],
         },
       ],
     },

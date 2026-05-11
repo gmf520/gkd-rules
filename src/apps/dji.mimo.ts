@@ -1,8 +1,8 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.bilibili.studio',
-  name: '必剪',
+  id: 'dji.mimo',
+  name: 'DJI Mimo',
   groups: [
     {
       key: 1,
@@ -10,7 +10,7 @@ export default defineGkdApp({
 
       rules: [
         {
-          matches: ['[vid="update_btn_cancel"]'],
+          matches: ['[vid="upgrade_cancel_tv"]'],
         },
       ],
     },

@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '正文底部广告1',
-      enable: false,
+
       rules: [
         {
           matches: ['@ImageView < [vid="reading__app_ad_view__close"]'],
@@ -20,7 +20,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '正文全屏广告关闭',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -32,7 +32,7 @@ export default defineGkdApp({
     {
       key: 3,
       name: '正文全屏广告反馈',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="ad__feedback_close_dialog_button"]'],
@@ -42,7 +42,7 @@ export default defineGkdApp({
     {
       key: 4,
       name: '关闭新版本',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="tv_cancel_update"]'],

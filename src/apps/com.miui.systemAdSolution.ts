@@ -47,7 +47,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '开屏广告1',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="view_skip_button"]'],

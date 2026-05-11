@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '关闭内测版本',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -19,7 +19,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '开通会员1',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -31,7 +31,7 @@ export default defineGkdApp({
     {
       key: 3,
       name: '开通会员2',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="vh0"]'],
@@ -41,7 +41,7 @@ export default defineGkdApp({
     {
       key: 4,
       name: '开通会员3',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -53,7 +53,7 @@ export default defineGkdApp({
     {
       key: 5,
       name: '开屏广告1',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -65,7 +65,7 @@ export default defineGkdApp({
     {
       key: 6,
       name: '开屏广告2',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -77,7 +77,7 @@ export default defineGkdApp({
     {
       key: 7,
       name: '看广告听会员歌曲',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -89,7 +89,7 @@ export default defineGkdApp({
     {
       key: 8,
       name: '你的会员已过期',
-      enable: false,
+
       rules: [
         {
           matches: [

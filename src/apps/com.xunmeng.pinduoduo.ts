@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '你有1笔补贴奖励待领取',
-      enable: false,
+
       rules: [
         {
           matches: [

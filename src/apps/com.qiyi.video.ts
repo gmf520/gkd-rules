@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '开屏广告',
-      enable: false,
+
       rules: [
         {
           matches: [

@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '有声会员开学季特惠',
-      enable: false,
+
       rules: [
         {
           matches: [
@@ -19,7 +19,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '音乐会员条',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="rv_content"] > ViewGroup > [vid="btn_close"]'],
@@ -29,7 +29,7 @@ export default defineGkdApp({
     {
       key: 3,
       name: '开屏广告1',
-      enable: false,
+
       rules: [
         {
           matches: ['[vid="splash_ad_skip"]'],

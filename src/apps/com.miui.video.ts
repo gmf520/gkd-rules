@@ -7,10 +7,18 @@ export default defineGkdApp({
     {
       key: 1,
       name: '首页点击观看',
-      enable: false,
       rules: [
         {
           matches: ['ViewGroup[vid="v_constraint"] > ImageView[vid="v_icon"]'],
+        },
+      ],
+    },
+    {
+      key: 2,
+      name: '未成年模式',
+      rules: [
+        {
+          matches: ['[vid="close_btn"]'],
         },
       ],
     },

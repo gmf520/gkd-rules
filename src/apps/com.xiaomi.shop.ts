@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '跳过开屏广告',
-      enable: false,
+
       rules: [
         {
           matches: ['[id="com.xiaomi.shop:id/skip"]'],
