@@ -11,6 +11,9 @@ export default defineGkdApp({
       rules: [
         {
           matches: ['@ImageView < [vid="reading__app_ad_view__close"]'],
+          excludeMatches: [
+            '@ImageView < FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < ViewGroup < [vid="dk_decor_view"]',
+          ],
         },
       ],
     },
