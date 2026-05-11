@@ -14,7 +14,8 @@ export default defineGkdApp({
           anyMatches: [
             '@Image < View <4 View < View <2 WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@Image < View <n View < View <2 WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
-            '@Image < View <4 View < View <2 View < WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
+            '@Image < View <3 View < View <2 View < WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
+            '@Image < View <n View < View <2 View < WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@View < FrameLayout <2 FrameLayout <2 FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@View < FrameLayout <3 FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@View < FrameLayout <n FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < [vid="laout_ad"]',
