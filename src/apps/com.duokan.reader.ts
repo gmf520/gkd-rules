@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '正文底部广告',
+      name: '正文底部广告1',
       enable: false,
       rules: [
         {
