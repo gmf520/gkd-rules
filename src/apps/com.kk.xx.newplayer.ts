@@ -10,23 +10,21 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
+          key: 0,
           anyMatches: [
             '@Image < View <4 View < View <2 WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@Image < View <4 View < View <2 View < WebView < WebView < FrameLayout <3 FrameLayout < FrameLayout < [vid="laout_ad"]',
             '@View < FrameLayout <4 FrameLayout < FrameLayout <2 FrameLayout < FrameLayout < [vid="laout_ad"]',
           ],
+          fastQuery: true,
         },
-      ],
-    },
-    {
-      key: 2,
-      name: '关广告不感兴趣',
-      enable: false,
-      rules: [
         {
-          matches: [
+          key: 1,
+          preKeys: [0],
+          anyMatches: [
             '@TextView < LinearLayout <2 ListView < LinearLayout < ScrollView < [id="android:id/content"]',
           ],
+          fastQuery: true,
         },
       ],
     },
